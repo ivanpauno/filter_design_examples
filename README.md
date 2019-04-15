@@ -2,7 +2,7 @@
 
 ## filter_utils lib
 
-It contains some utility functions, combining the power of scipy.signal with matplotlib.
+It contains some utility functions, combining the power of scipy.signal and matplotlib.
 
 ## Example descriptions
 
