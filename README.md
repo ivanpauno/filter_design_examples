@@ -1,5 +1,16 @@
 # Analog filter design examples
 
+## System requirements
+
+Python3, numpy, scipy and matplotlib are required.
+Ubuntu install instructions:
+
+```bash
+sudo apt update
+sudo apt install python3-pip
+pip3 install --user numpy scipy matplotlib
+```
+
 ## filter_utils lib
 
 It contains some utility functions, combining the power of scipy.signal and matplotlib.
