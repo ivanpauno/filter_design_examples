@@ -96,7 +96,7 @@ def print_zpk(num, den):
     z, p, k = sig.tf2zpk(num, den)
     print('Poles:')
     print_pole_or_zero_info(p)
-    if(z):
+    if z.size:
         print('Zeros:')
         print_pole_or_zero_info(z)
     print('K = {}'.format(k))
