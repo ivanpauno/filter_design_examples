@@ -136,7 +136,7 @@ def pzmap(filters):
 def pretty(num, den):
     num = ['{} s^{}'.format(num[i], len(num)-i-1) if num[i] else '' for i in range(len(num))]
     num = ' + '.join(num)
-    den = ['{} s^{}'.format(den[i], len(den)-i-1) if num[i] else '' for i in range(len(den))]
+    den = ['{} s^{}'.format(den[i], len(den)-i-1) if den[i] else '' for i in range(len(den))]
     den = ' + '.join(den)
     max_len = max(len(num), len(den))
     bar = '-' * max_len
